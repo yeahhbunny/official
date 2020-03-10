@@ -1,218 +1,57 @@
-/*import fonts*/
-@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-/*html*/
+<!DOCTYPE html>
+<html>
+<head>
+  <title>nykz.xyz</title>
+  <link rel="stylesheet" type="text/css" href="css/styke.css">
+  <link rel="icon" type="img/png" href="img/jd.ico"/>
+</head>
+<body>
+  <header>
+    <div class="main">
+      <div class="logo">
+        <img src="">
+        <ul>
+          <li calss="#"><a href="index.html">Strona Główna</a></li>
+          <li calss="#"><a href="sklep.html">Sklep</a></li>
+          <li calss="#"><a href="fb.html">Feedbacks</a></li>
+          <li calss="#"><a href="https://discord.gg/9qNt4TM">Discord</a></li>
+          <li calss="#"><a href="https://www.youtube.com/channel/UCc_sJTTDb_k72FRyHf-SXKg">YouTube</a></li>
+          <li calss="#"><a href="https://tipply.pl/u/nykz">Donate</a></li>
+          <li calss="#"><a href="https://instagram.com/jacobparowa12">Instagram</a></li>
+          <li calss="#"><a href="https://discord.gg/YMFdTDM">Sklep Discord</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="title">
+      <h4>NYKZ.XYZ</h4>
+    </div> 
 
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: "Open Sans", Helvetica;
-}
+    <div class="card">
+      <div class="top-section">
+        <img id="image-container" sec="1.png" alt="">
+        <div class="nav">
+          <img src="1.png" alt="">
+          <img src="2.png" alt="">
+          <img src="3.png" alt="">
+        </div>
+        <div class="price">20PLN</div>
+      </div>
 
-header{
-	background: linear-gradient(rgba(20, 26, 35,0.55),rgba(20, 26, 35, 0.55)),
-				url("../img/bg.jpg") no-repeat center center fixed;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
-
-ul{
-    float: top;
-    padding: 3px 370px;
-    list-style-type: none;
-    margin-top: 40px;
-    color: rgb(105, 105, 105);
-}
-
-ul li{
-    display: inline-block;}
-
-ul li a{
-    text-decoration: none;
-    color: rgb(153, 153, 153);
-    padding: 7px 30px;
-    background-color: transparent;
-    border-radius: 20px;
-    text-shadow: black;
-}
-
-ul li a:hover{
-    background-color: transparent;
-    color: #fff;
-    transition: 0.6s ease;
-}
-
-ul li.active a{
-    background-color: transparent;
-    color: #fff;
-}
-.title h1{
-    color: #fff;
-    font-size: 50px;
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-.title h2{
-    color: #fff;
-    font-size: 40px;
-    position: absolute;
-    top: 37%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-.title h3{
-    color: #fff;
-    font-size: 30px;
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-.title h4{
-    color: #fff;
-    font-size: 25px;
-    position: absolute;
-    top: 7%;
-    left: 15%;
-    transform: translate(-50%, -50%);
-}
-
-.title h7{
-    color: #fff;
-    font-size: 13px;
-    position: absolute;
-    top: 98%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.title {
-	font-weight: bold;
-	font-size: 17px;
-	color: white;
-}
-
-.subtitle {
-	color: #cfcfcf;
-	font-size: 12px;
-}
-
-.title,
-.subtitle {
-	margin: 0;
-	padding: 0;
-}
-
-@media(min-width: 400px) {
-	.playercount {
-		margin-top: 30px;
-		padding: 5px;
-	}
-
-	.playercount > p > span {
-		padding: 2px 7px;
-	}
-}
-
-@media(min-width: 600px) {
-	.title {
-		font-size: 24px;
-	}
-
-	.subtitle {
-		font-size: 15px;
-	}
-
-	.logo img {
-		width: 530px; /* Change image size for desktop */
-	}
-	.img {
-		width: 100%;
-	}
-	.items {
-		padding: 30px 0 20px 0;
-	}
-	.playercount {
-		font-size: 1.22em;
-		padding: 10px;
-	}
-
-	.extrapad {
-		padding: 0 42.5px;
-	}
-
-	.playercount > p > span {
-		padding: 4px 7px;
-	}
-}
-
-.card{
-    width: 500px;
-    background: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.top-section{
-    height: 100px;
-    overflow: hidden;
-    background: #fff;
-    position: relative;
-}
-#image-container{
-    widows: 360px;
-    height: 240px;
-}
-.price{
-    position: absolutle;
-    top: 50%;
-    right: 50%;
-    color: #000;
-    font-size: 24px;
-    padding: 24px;
-}
-.product-info{
-    padding: 24px;
-}
-.name{
-    text-transform: uppercase;
-    font-size: 24px;
-    color: #333;
-}
-.dis{
-    font-size: 16px;
-    opacity: 0.7;
-}
-.btn{
-    top: 50%;
-    left: 50%;
-    width: 200px;
-    height: 60px;
-    text-align: center;
-    display: block;
-    background: #6ab04c;
-    text-align: #fff;
-    color: #fff;
-    padding: 10px;
-    margin-top: 20px;
-    width: 430px;
-    height: 20px;
-    top: 50%;
-    left: 50%;
-    border-radius: 10px;
-    transition: 0.3s;
-    text-decoration: none;
-}
-.btn:hover{
-    background: #333;
-    border-radius: 30px;
-    transition: 0.3s;
-}
+      <div class="product-info">
+        <div class="name">Podczas zakupu podajesz id oraz nick discord z #0000</div>
+        <div class="dis">Strona Internetowa | ID:01 | 20PLN</div>
+        <div class="dis"> Generator Kont | ID:02 | 30PLN</div>
+        <div class="dis">  Discord Token Generator | ID:03 | 15PLN</div>
+        <div class="dis">  Generator Kont Na Zamówienie | ID:04 | 30PLN</div>
+        <div class="dis">  Nauka Crackowania 2x sposoby | ID:05 | 20PLN</div>
+        <div class="dis">  Grafika | ID:06 | 5PLN</div>
+        <div class="dis">  Animacja | ID:07 | 5PLN</div>
+        <div class="dis">  Facebook Spammer | ID:08 | 1PLN</div>
+        <div class="dis">  Generator Kont Discord Bot | ID:09 | 10PLN</div>
+        <div class="dis">  Discord Bot Na Zamówienie | ID:10 | 20PLN</div>
+        <div class="dis">  Token Grabber | ID:11 | 10PLN</div>
+        <div class="dis">  Nitro Generator | ID:12 | 5PLN</div>
+        <div class="dis">  Randomowe Konto Origin/NordVPN ETC | ID:13 | 1PLN</div>
+        <a class="btn" href="https://tipply.pl/u/nykz">Zamów</a>
+      </div>
+    </div>
