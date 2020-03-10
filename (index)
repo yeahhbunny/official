@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>yeahhbunny</title>
+  <link rel="stylesheet" type="text/css" href="css/styke.css">
+  <link rel="icon" type="img/png" href="img/jd.ico"/>
+</head>
+<body>
+  <header>
+    <div class="main">
+      <div class="logo">
+        <img src="">
+        <ul>
+          <li calss="#"><a href="index.html">Strona Główna</a></li>
+          <li calss="#"><a href="sklep.html">Sklep</a></li>
+          <li calss="#"><a href="fb.html">Feedbacks</a></li>
+          <li calss="#"><a href="https://discord.gg/PcZqTSY">Kontakt</a></li>
+          <li calss="#"><a href="https://www.youtube.com/channel/UCkTK7ZU-h0_w3rIgszSMtHQ">YouTube</a></li>
+          <li calss="#"><a href="https://tipply.pl/u/damo">Donate</a></li>
+          <li calss="#"><a href="https://instagram.com/otsoleci">Instagram</a></li>
+          <li calss="#"><a href="https://discord.gg/PcZqTSY">Serwer Discord</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="title">
+      <h4>YEAHHBUNNY/h4>
+    </div> 
+
+    </div>
+  </header>
+</body>
+</html>
+
+<!-- Siema świrze --!>
+
+<div class="title">
+  <h7>&copy; yeahhbunny</h7>
+  </div>
